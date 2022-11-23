@@ -536,9 +536,16 @@ footer .col-md button:hover {
   background-color: #ffffff;
   color: black;
 }
-footer .col-md .fa-brands i {
-  margin-right: 5px;
+.fa-brands{
+  display: flex;
+  position: relative;
+
+}
+.fa-brands i {
+  margin-right: 22px;
   font-size: 20px;
+  color: #ffffff;
+
 }
 
 .footer-end {
